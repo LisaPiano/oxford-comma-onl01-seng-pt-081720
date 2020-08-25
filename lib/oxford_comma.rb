@@ -1,8 +1,9 @@
 def oxford_comma(array)
 
-  final = array.pop
+final = array.pop
 
 sentence = array.join(", ")
-sentence << ", and #{final}"
-puts sentence
+
+sentence << (", and #{final}")
+sentence
 end
