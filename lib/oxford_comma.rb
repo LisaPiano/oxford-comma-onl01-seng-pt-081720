@@ -6,5 +6,3 @@ sentence = array.join(", ")
 sentence << ", and #{final}"
 puts sentence
 end
-
-
