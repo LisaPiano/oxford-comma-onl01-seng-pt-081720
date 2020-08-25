@@ -16,3 +16,4 @@ def oxford_comma(array)
   sentence << ", and #{final}"
   puts sentence
   end
+end
